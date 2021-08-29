@@ -39,12 +39,26 @@
                                             <action selector="resetSortingView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4P8-uE-I87"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtU-yM-qO6">
+                                        <rect key="frame" x="124" y="38.5" width="166" height="36"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Bubble Sort">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sortUsingBubbleSortAlgorithm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="12D-Dj-Pey"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="7xy-VM-oyr" firstAttribute="width" secondItem="isQ-jM-10d" secondAttribute="width" multiplier="0.4" id="5In-WY-8R1"/>
+                                    <constraint firstItem="dtU-yM-qO6" firstAttribute="height" secondItem="7xy-VM-oyr" secondAttribute="height" id="6qs-IN-2yV"/>
                                     <constraint firstItem="7xy-VM-oyr" firstAttribute="top" secondItem="isQ-jM-10d" secondAttribute="top" id="95G-C7-2vb"/>
                                     <constraint firstItem="7xy-VM-oyr" firstAttribute="centerX" secondItem="isQ-jM-10d" secondAttribute="centerX" id="Q9N-No-w8e"/>
+                                    <constraint firstItem="dtU-yM-qO6" firstAttribute="top" secondItem="7xy-VM-oyr" secondAttribute="bottom" constant="2" id="QHC-cq-0vh"/>
+                                    <constraint firstItem="dtU-yM-qO6" firstAttribute="trailing" secondItem="7xy-VM-oyr" secondAttribute="trailing" id="xAk-XV-vS9"/>
+                                    <constraint firstItem="dtU-yM-qO6" firstAttribute="leading" secondItem="7xy-VM-oyr" secondAttribute="leading" id="yWJ-mn-OUj"/>
                                 </constraints>
                             </view>
                         </subviews>
